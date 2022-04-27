@@ -15,10 +15,15 @@ export const theme = extendTheme({
       900:  '#181B23',
     }
   },
+  fonts: {
+    body: 'Roboto',
+    heading: 'Roboto',
+  },
   styles: {
     global: {
       body: {
-        bg: 'white'
+        bg: 'gray.900',
+        color: 'gray.50',
       }
     }
   }
