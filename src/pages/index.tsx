@@ -26,23 +26,6 @@ export default function Home() {
       >
         <Stack spacing="4">
           <FormControl>
-            <FormLabel htmlFor="email">E-mail</FormLabel>
-
-            <Input
-              name="email"
-              id="email"
-              type="email"
-              size="lg"
-              variant="filled"
-              focusBorderColor="pink.500"
-              bgColor="gray.900"
-              _hover={{
-                bgColor: 'gray.900'
-              }}
-            />
-          </FormControl>
-
-          <FormControl>
             <FormLabel htmlFor="password">Senha</FormLabel>
 
             <Input
