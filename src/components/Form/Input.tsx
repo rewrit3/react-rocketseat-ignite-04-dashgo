@@ -1,19 +1,23 @@
-import { FormControl, FormLabel } from "@chakra-ui/react";
+import {
+  FormControl,
+  FormLabel,
+  Input as ChakraInput,
+  InputProps as ChakraInputProps
+} from '@chakra-ui/react';
 
-interface InputProps {
+interface InputProps extends ChakraInputProps {
   name: string;
   label?: string;
 }
 
-export function Input({ name, label }: InputProps) {
+export function Input({ name, label, ...rest }: InputProps) {
   return (
     <FormControl>
       { !!label && <FormLabel htmlFor={name}>{label}</FormLabel> }
 
-      <Input
+      <ChakraInput
         name={name}
         id={name}
-        type="email"
         size="lg"
         variant="filled"
         focusBorderColor="pink.500"
@@ -21,6 +25,7 @@ export function Input({ name, label }: InputProps) {
         _hover={{
           bgColor: 'gray.900'
         }}
+        {...rest}
       />
     </FormControl>
   );
