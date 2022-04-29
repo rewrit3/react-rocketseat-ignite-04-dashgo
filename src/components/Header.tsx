@@ -11,20 +11,17 @@ export function Header() {
       align="center"
       mx="auto"
       mt="4"
-      px="6"
-    >
+      px="6">
       <Text
         w="64"
         fontSize="3xl"
         fontWeight="bold"
-        letterSpacing="tight"
-      >
+        letterSpacing="tight">
         dashgo
         <Text
           as="span"
           ml="1"
-          color="pink.500"
-        >
+          color="pink.500">
           .
         </Text>
       </Text>
@@ -40,8 +37,7 @@ export function Header() {
         px="8"
         borderRadius="full"
         color="gray.200"
-        bg="gray.800"
-      >
+        bg="gray.800">
         <Input
           variant="unstyled"
           mr="4"
@@ -59,8 +55,7 @@ export function Header() {
 
       <Flex
         align="center"
-        ml="auto"
-      >
+        ml="auto">
         <HStack
           spacing="8"
           mx="8"
@@ -68,8 +63,7 @@ export function Header() {
           pr="8"
           borderRightWidth={1}
           borderColor="gray.700"
-          color="gray.300"
-        >
+          color="gray.300">
           <Icon
             as={RiNotificationLine}
             fontSize="20"
@@ -84,14 +78,12 @@ export function Header() {
         <Flex align="center">
           <Box
             mr="4"
-            textAlign="right"
-          >
+            textAlign="right">
             <Text>Adolfo Cruz</Text>
 
             <Text
               fontSize="small"
-              color="gray.300"
-            >
+              color="gray.300">
               adolfo@rewrite.com.br
             </Text>
           </Box>

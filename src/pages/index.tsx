@@ -7,8 +7,7 @@ export default function Home() {
       w="100vw"
       h="100vh"
       justify="center"
-      align="center"
-    >
+      align="center">
       <Flex
         as="form"
         flexDir="column"
@@ -16,8 +15,7 @@ export default function Home() {
         maxW={360}
         p="8"
         borderRadius={8}
-        bgColor="gray.800"
-      >
+        bgColor="gray.800">
         <Stack spacing="4">
           <Input
             name="email"
@@ -36,8 +34,7 @@ export default function Home() {
           type="submit"
           mt="6"
           size="lg"
-          colorScheme="pink"
-        >
+          colorScheme="pink">
           Entrar
         </Button>
       </Flex>
